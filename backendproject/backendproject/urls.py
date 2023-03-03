@@ -25,6 +25,6 @@ router.register(r'exercises', ExerciseViewSet)
 
 
 urlpatterns = [
-    path('', include(router.urls)),
+    path("", include(router.urls)),
     path("admin/", admin.site.urls),
 ]
